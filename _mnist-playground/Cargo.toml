@@ -1,0 +1,9 @@
+[package]
+name = "mnist-on-wasm"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+image = "0.25"
+ndarray = "0.16"
+ort = "=2.0.0-rc.9"
