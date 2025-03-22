@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+</head>
+
+<body>
+    <div>
+        <canvas id="canvas" style="border: 1px solid black;"></canvas>
+        <div>
+            <button id="clear-button">クリア</button>
+            <button id="recognize-button">認識</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <!-- Make `wasm_bindgen` available for `index.js` -->
+    <script src='./pkg/mnist_on_wasm.js'></script>
+    <!-- Note that there is no `type="module"` in the script tag -->
+    <script src="./assets/index.js"></script>
+
+</body>
+
+</html>
